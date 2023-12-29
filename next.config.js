@@ -8,6 +8,12 @@ const nextConfig = {
         port: '',
         pathname: '/random',
       },
+      {
+        protocol: 'https',
+        hostname: 'web.pokerbaazicdn.com',
+        port: '',
+        pathname: '/asset/**',
+      }
     ],
   },
 };

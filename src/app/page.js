@@ -8,11 +8,23 @@ import ListItem from '@mui/material/ListItem';
 import Alert from '@mui/material/Alert';
 import AlertTitle from '@mui/material/AlertTitle';
 import MediaCard from '@/components/MediaCard';
-
+import Image from 'next/image';
 export default function HomePage() {
   return (
     <Box sx={{ display: 'flex' }}>
       <div>
+      <Image
+        alt="Random image"
+        src="https://web.pokerbaazicdn.com/asset/images/home-deskhtop-new.webp"
+        width={1024}
+        height={480}
+        style={{
+          width:"100%",
+          maxWidth: '100%',
+          height: "auto",
+          objectFit: 'cover',
+        }}
+      />
         <Alert severity="info" sx={{ mt: 2, mb: 5 }}>
           <AlertTitle>Hello 👋</AlertTitle>
           This app uses the Next.js App Router and Material UI v5.
