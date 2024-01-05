@@ -1,0 +1,12 @@
+{
+    "routes": [
+      {
+        "id": 1,
+        "pathname": "free-entry"
+      },
+      {
+        "id": 2,
+        "pathname": "nps"
+      }
+    ]
+  }

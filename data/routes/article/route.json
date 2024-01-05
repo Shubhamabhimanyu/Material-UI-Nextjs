@@ -1,0 +1,12 @@
+{
+    "routes": [
+      {
+        "id": 1,
+        "pathname": "poker-variant"
+      },
+      {
+        "id": 2,
+        "pathname": "poker-rule"
+      }
+    ]
+  }

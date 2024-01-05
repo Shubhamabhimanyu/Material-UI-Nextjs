@@ -1,6 +1,7 @@
 # Material UI - Next.js App Router example
 
-
+For Next.js, Node.js version >= v18.17.0 is required.
+recommended node v19.9.0 (npm v9.6.3)
 ## How to use
 
 clone the repo

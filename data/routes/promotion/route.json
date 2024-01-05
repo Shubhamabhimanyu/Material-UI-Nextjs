@@ -1,0 +1,12 @@
+{
+    "routes": [
+      {
+        "id": 1,
+        "pathname": "cash-battle"
+      },
+      {
+        "id": 2,
+        "pathname": "sit-and-go"
+      }
+    ]
+  }
